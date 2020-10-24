@@ -1,0 +1,17 @@
+GET http://localhost:8080/post/getAll
+
+###
+
+GET http://localhost:8080/post/getById?id=0
+
+###
+
+POST http://localhost:8080/post/add
+Content-Type: application/json
+
+{
+  "title": "Post2",
+  "description": "test post 2"
+}
+
+###

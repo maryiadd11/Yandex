@@ -1,0 +1,12 @@
+GET http://localhost:8080/comment/getAllByPostId?postId=1
+
+###
+
+POST http://localhost:8080/comment/add
+Content-Type: application/json
+
+{
+  "description": "comment 1"
+}
+
+###
